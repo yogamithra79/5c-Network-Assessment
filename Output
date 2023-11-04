@@ -1,0 +1,84 @@
+1. Overall Gross Margin: 1207.1999999999998
+2. Most Profitable Vendor: Vendor7
+3. Least Profitable Customer: Customer9
+4. Most Profitable Day of the Week: Monday
+5. Least Profitable Day of the Week: Thursday
+    
+Ans:6    
+   Date   3-Day Avg
+  0  2023-08-21         NaN
+  1  2023-08-21         NaN
+  2  2023-08-21  433.613333
+  3  2023-08-21  177.266667
+  4  2023-08-21  142.366667
+  ..        ...         ...
+  64 2023-08-27  427.866667
+  65 2023-08-27  552.863333
+  66 2023-08-27  552.070000
+  67 2023-08-27  479.726667
+  69 2023-08-27  352.573333
+
+Ans:8
+Gross Margin for Each Vendor:
+Firm bought from
+Vendor1      53.23
+Vendor10     82.58
+Vendor2     161.11
+Vendor3     165.18
+Vendor4     170.11
+Vendor5     116.98
+Vendor6      32.11
+Vendor7     224.98
+Vendor8      35.66
+Vendor9     165.26
+dtype: float64
+
+Gross Margin for Each Customer:
+Customer
+Customer1     132.59
+Customer10     87.44
+Customer2     164.56
+Customer3      90.63
+Customer4     123.97
+Customer5     115.45
+Customer6     135.23
+Customer7     115.33
+Customer8     184.38
+Customer9      57.62
+dtype: float64
+
+Vendor to be fired: Vendor6
+Least Profitable Customer: Customer9
+
+
+
+
+
+Ans:9
+[70 rows x 2 columns]
+Buying Price Percentiles:
+0.25    29.90
+0.50    60.76
+0.75    78.32
+Name: Buying price, dtype: float64
+Selling Price Percentiles:
+0.25     38.9750
+0.50     78.9900
+0.75    103.3975
+Name: Selling price, dtype: float64
+
+
+Ans:10
+FREQUENCY OF BUYING PRICE(below 25%):
+18
+FREQUENCY OF SELLING PRICE(75%):
+18
+
+Ans:11
+OPTIMAL GROSS MARGIN: 6903.3099999999995
+
+Ans:12
+VENDOR WITH HIGHEST GROSS MARGIN: Vendor4
+
+Ans:13
+THEORITICAL MAXIMUM MARGIN: 6903.3099999999995
